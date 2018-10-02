@@ -1,0 +1,97 @@
+$white: #fff;
+$grey: #f0f0f0;
+$grey-medium: #c8c8c8;
+$grey-dark: #333333;
+$darkgrey: #dbdbdb;
+$black: #505050;
+$sadblue: #197197;
+$sadblue-light: #8cb8cb;
+$funblue: #009cdd;
+$funblue-light: #d9e7ed;
+$fontblue: #00628c;
+$ignoreblue: #003b54;
+$noblue: #99e1ff;
+$red: #ff5e41;
+$green: #7ae7bf;
+$border-light : #f0f0f0;
+
+$party-colors: (
+  'smc': #8fcfee,
+  'sds': #22a2e0,
+  'desus': #5388aa,
+  'sd': #4f6379,
+  'zl': #857799,
+  'levica': #857799,
+  'nsi': #b7888a,
+  'ps_np': #d9776b,
+  'ps-np': #d9776b,
+  'imns': #ba594c,
+  'nep': #853f36,
+  'nep_-_zl': #853f36,
+  'nep_-_ač': #853f36,
+  'nep_-_mh': #853f36,
+  'nep_-_bk': #853f36
+);
+
+$vote-colors: (
+  'votes_for': $fontblue,
+  'against': $funblue,
+  'abstain': $ignoreblue,
+  'not_present': $noblue
+);
+
+$proper-vote-colors: (
+  'for': $fontblue,
+  'against': $funblue,
+  'abstain': $ignoreblue,
+  'not_present': $noblue
+);
+
+$option-colors: (
+  'for': $fontblue,
+  'against': $funblue,
+  'kvorum': $ignoreblue,
+  'ni': $noblue
+);
+
+// hover colors
+$funblue-hover: rgba(0, 156, 221, 0.7);
+$fontblue-hover: rgba(0, 98, 140, 0.7);
+$ignoreblue-hover: rgba(0, 59, 84, 0.7);
+$noblue-hover: rgba(153, 225, 255, 0.7);
+
+$party-colors-hover: (
+  'smc': rgba(143, 207, 238, 0.7),
+  'sds': rgba(34, 162, 224, 0.7),
+  'desus': rgba(83, 136, 170, 0.7),
+  'sd': rgba(79, 99, 121, 0.7),
+  'zl': rgba(133, 119, 153, 0.7),
+  'levica': rgba(133, 119, 153, 0.7),
+  'nsi': rgba(183, 136, 138, 0.7),
+  'ps_np': rgba(217, 119, 107, 0.7),
+  'ps-np': rgba(217, 119, 107, 0.7),
+  'imns': rgba(186, 89, 76, 0.7),
+  'nep': rgba(133, 63, 54, 0.7),
+  'nep_-_zl': rgba(133, 63, 54, 0.7),
+  'nep_-_ač': rgba(133, 63, 54, 0.7),
+  'nep_-_mh': rgba(133, 63, 54, 0.7)
+);
+
+$option-colors-hover: (
+  'for': $fontblue-hover,
+  'against': $funblue-hover,
+  'kvorum': $ignoreblue-hover,
+  'ni': $noblue-hover
+);
+
+$proper-vote-colors-hover: (
+  'for': $fontblue-hover,
+  'against': $funblue-hover,
+  'abstain': $ignoreblue-hover,
+  'not_present': $noblue-hover
+);
+
+$binary-vote-colors: (
+  'binary-for': $funblue,
+  'binary-against': $red
+);
